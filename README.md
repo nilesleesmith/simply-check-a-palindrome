@@ -1,64 +1,69 @@
-# Palindrome
+# Palindrome Checker
 
-A simple palindrome checker that determines whether a word or phrase reads the same forwards and backwards.
+Enter a word to check whether it reads the same forwards and backwards.
 
-## About
+## Overview
 
-This project checks whether a word or phrase is a palindrome using simple JavaScript logic.
+Palindrome Checker lets a user enter a word and determine whether it is a palindrome.
 
-The goal is to provide a quick and easy way to check whether text reads the same forwards and backwards.
+The browser sends the entered word to a Node.js server, which reverses the word and compares the two values without regard to capitalization. The result is then returned to the page and displayed to the user.
 
-## What It Does
+## Features
 
-- Checks whether words or phrases are palindromes
-- Provides a simple interface for entering text
-- Uses JavaScript to handle the palindrome check
-- Keeps the project simple and easy to understand
+- Accepts a word from the user
+- Checks the word without regard to capitalization
+- Reverses and compares the submitted value
+- Displays whether the word is a palindrome
+- Uses a Node.js HTTP server and API endpoint to process the request
 
 ## Technologies
 
-This project was built with:
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://nodejs.org/" title="Node.js">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40">
+  </a>
+</p>
 
-- HTML
-- CSS
-- JavaScript
+## How to Run
 
-## How It Works
+1. Clone the repository:
 
-The application takes the text entered by the user and prepares it for comparison by converting it to lowercase and removing spaces and punctuation.
+```bash
+git clone https://github.com/nilesleesmith/simply-check-a-palindrome.git
+```
 
-The cleaned text is then compared with its reverse.
+2. Open the project folder:
 
-If both values are the same, the application identifies the text as a palindrome.
+```bash
+cd simply-check-a-palindrome
+```
 
-## Usage
+3. Start the Node.js server:
 
-Open the project in a web browser.
+```bash
+node server.js
+```
 
-Enter a word or phrase into the input field.
+4. Open the application in a browser:
 
-Click the check button to determine whether the text is a palindrome.
+```text
+http://localhost:8000
+```
 
-The application will display the result.
+No additional packages or installation steps are required.
 
-## Development Approach
+## Live Site
 
-I prefer simple code over unnecessary complexity.
-
-This project is intentionally small and straightforward so that the HTML, CSS, and JavaScript are easy to read, understand, and modify.
-
-The goal is to build something useful while keeping the implementation simple.
-
-## Future Improvements
-
-Possible improvements include:
-
-- Adding more examples
-- Adding a history of previous checks
-- Adding animations or visual feedback
-- Improving the user interface
-- Adding support for different languages
-
-## License
-
-This project is open source and available for personal and educational use.
+Coming soon.
