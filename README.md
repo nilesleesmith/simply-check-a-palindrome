@@ -66,4 +66,8 @@ No additional packages or installation steps are required.
 
 ## Live Site
 
-Coming soon.
+https://simply-check-a-palindrome.onrender.com
+
+## Screenshots
+
+![Simply check a palindrome desktop view](.\screenshots\simply-check-a-palindrome-desktop.png)
