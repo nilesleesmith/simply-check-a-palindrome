@@ -70,4 +70,4 @@ https://simply-check-a-palindrome.onrender.com
 
 ## Screenshots
 
-![Simply check a palindrome desktop view](.\screenshots\simply-check-a-palindrome-desktop.png)
+![Simply check a palindrome desktop view](./screenshots/simply-check-a-palindrome-desktop.png)
